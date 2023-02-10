@@ -1,0 +1,22 @@
+{
+  "name": "employee-api",
+  "version": "1.0.0",
+  "description": "Employee API to handle employess record",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha 'tests/*.spec.js'"
+  },
+  "author": "Karthikeyan Rajendran",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "async": "^3.2.4",
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0",
+    "supertest": "^6.3.3"
+  }
+}
